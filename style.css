@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(215, 17, 17);
+  color: white;
+  padding: 10px;
+}
+
+header div {
+  display: flex;
+  align-items: center;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+footer {
+  text-align: center;
+  background-color: gray;
+  padding: 20px;
+}
+
+footer p {
+  color: white;
+}
+.secondHeader nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.secondHeader nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.secondHeader {
+  padding: 10px;
+  height: 20px;
+  border-bottom: 1px solid rgba(10, 20, 50, 0.2);
+}
+
+.cityList {
+  padding: 10px;
+}
+
+.homePage {
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(239, 239, 239);
+}
+
+.searchInput {
+  margin-top: -10%;
+  width: 50%;
+  height: 40px;
+}
+
+.searchInput input {
+  padding: 20px;
+  width: 80%;
+  height: 40px;
+  border: 2px solid black;
+  border-radius: 20px;
+  /* border: none; */
+  outline: none;
+}
+
+.searchInput button {
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.searchInput h1 {
+  margin-bottom: 10px;
+}
+
+.propertiesImgAndText p {
+  font-size: 25px;
+  color: white;
+  padding-left: 5px;
+  background: blue;
+}
+
+.propertiesImgAndText {
+  width: 200px;
+  height: 100px;
+  margin-top: -100px;
+}
+
+.propertyImgDiv image {
+  width: 250;
+  border-radius: 10px;
+}
+.propertyListDiv {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.propertyListDiv .marginright20 {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.marginright20 {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.offerDiv {
+  margin-top: -30px;
+  margin-left: 10px;
+}
+.offerBtn {
+  background-color: yellow;
+  padding: 3px 20px;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+.offerCardLists {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* common css */
+.text-center {
+  text-align: center;
+}
+
+.padding50 {
+  padding: 50px;
+}
+
+.custom-hr {
+  width: 100px;
+  border-bottom: 5px solid red;
+  border-radius: 20px;
+  margin: 10px 0px;
+}
+
+.paddingBottom20 {
+  /* padding-bottom: 20px; */
+}
+
+.viewDetails {
+  padding: 0 16px;
+  height: 32px;
+  line-height: 32px;
+  color: #fff;
+  background-color: #d8232a;
+  border: 1px solid #d8232a;
+}
+
+.offerInfo {
+  padding: 20px;
+  height: 100px;
+  background-color: whitesmoke;
+}
+
+.offerCard {
+  width: 300px;
+  margin-bottom: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
